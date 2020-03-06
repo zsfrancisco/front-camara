@@ -1,1 +1,155 @@
-/* You can add global styles to this file, and also import other style files */
+.user-ico img {
+    width: 30px;
+    height: 30px;
+}
+
+.user-ico a {
+    text-decoration: none;
+}
+
+.camara-ico {
+    width: 70px;
+    height: 70px;
+}
+
+.divazul {
+    background-color: #0f4499;
+    color: white;
+    text-align: center;
+}
+
+.ptamaño {
+    font-size: 15px;
+}
+
+.formbg {
+    background-color: #edece8;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.title1 {
+    font-size: 20px;
+}
+
+.title2 {
+    font-size: 19px;
+}
+
+.title3 {
+    font-size: 18px;
+}
+
+.title4 {
+    font-size: 13px
+}
+
+.title5 {
+    font-size: 10px
+}
+
+footer {
+    background-color: #0B0B2E;
+}
+
+.footerpie {
+    background-color: #04042D;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .ptamaño {
+        font-size: 20px;
+    }
+    .title1 {
+        font-size: 25px;
+    }
+    .title2 {
+        font-size: 20px;
+    }
+    .title3 {
+        font-size: 23px;
+    }
+    .title4 {
+        font-size: 15px
+    }
+    .title5 {
+        font-size: 11px
+    }
+    .psegundo {
+        font-size: 15px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .ptamaño {
+        font-size: 20px;
+    }
+    .title1 {
+        font-size: 30px;
+    }
+    .title2 {
+        font-size: 25px;
+    }
+    .title3 {
+        font-size: 20px;
+    }
+    .title4 {
+        font-size: 15px
+    }
+    .title5 {
+        font-size: 10px
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .ptamaño {
+        font-size: 35px;
+    }
+    .title1 {
+        font-size: 35px;
+    }
+    .title2 {
+        font-size: 30px;
+    }
+    .title3 {
+        font-size: 25px;
+    }
+    .title4 {
+        font-size: 20px
+    }
+    .title5 {
+        font-size: 15px
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .ptamaño {
+        font-size: 40px;
+    }
+    .title1 {
+        font-size: 40px;
+    }
+    .title3 {
+        font-size: 30px;
+    }
+}
