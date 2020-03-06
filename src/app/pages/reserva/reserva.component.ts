@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './reserva.component.html'
 })
 export class ReservaComponent {
-
+  model: any;
   constructor() { }
 
 }

@@ -149,7 +149,16 @@ footer {
     .title1 {
         font-size: 40px;
     }
+    .title2 {
+        font-size: 35px;
+    }
     .title3 {
         font-size: 30px;
+    }
+    .title4 {
+        font-size: 25px;
+    }
+    .title5 {
+        font-size: 20px;
     }
 }
